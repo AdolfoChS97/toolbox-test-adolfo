@@ -1,4 +1,11 @@
 
+# Toolbox test backend 
+
+This project is a test to apply for the position as backend developer in Toolbox
+
+## About 
+This project was written in NodeJS 14 to satisfy the technical requirements of the test
+
 ## Installation
 
 1.- Install this repository with npm
@@ -35,3 +42,16 @@ And then you can enjoy and test the API
 
 
     
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm run test
+```
+
+
+## Authors
+
+- [@AdolfoChS97](https://www.github.com/AdolfoChS97)
+
