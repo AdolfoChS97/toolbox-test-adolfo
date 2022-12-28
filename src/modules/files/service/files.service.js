@@ -1,4 +1,4 @@
-const request = require('./../../utils/requests');
+const request = require('../../../utils/requests');
 
 class FilesService {
     

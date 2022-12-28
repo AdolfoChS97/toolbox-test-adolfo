@@ -1,4 +1,4 @@
-const filesService = require('./files.service');
+const filesService = require('../service/files.service');
 
 class FilesController {
 

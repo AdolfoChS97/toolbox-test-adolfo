@@ -1,8 +1,8 @@
 //FILES MODULES
 const express = require('express');
 const router = express.Router();
-const filesController = require('./files.controller');
-const { authCheckerMiddleware } = require('./files.middleware');
+const filesController = require('./controller/files.controller');
+const { authCheckerMiddleware } = require('./middleware/files.middleware');
 
 router.get('/data',[authCheckerMiddleware], async (req, res) => {
     try {
